@@ -46,5 +46,25 @@
         <p>Feel free to explore my projects, and don’t hesitate to reach out—I’d love to connect and collaborate!</p>
         <img src="photos/abdishakur2.jpg" alt="abishakur in a office with laptops" width="400px" height="400px">
     </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name: </label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your Name" required><br><br>
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" required><br><br>
+            <label for="message">Message me: </label><br>
+            <textarea id="message" name="message" rows="15" cols="60" placeholder="Enter your Message here" required>
+            </textarea><br><br>
+            <p><strong>Why are you Messaging ME</strong></p>
+            <select name="reason">
+                <option value="hire">Hire you</option>
+                <option value="chat">To Chat</option>
+                <option value="connect">To Connect</option>
+                <option value="project" selected>project</option>
+            </select><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
 </body>
 </html>
